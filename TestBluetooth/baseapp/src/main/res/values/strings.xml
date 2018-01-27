@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestVoice</string>
+    <string name="test">测试</string>
+    <string name="progress_tip_default">正在加载...</string>
+</resources>

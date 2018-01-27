@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="蓝牙调试配置页面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_mac"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="蓝牙Mac地址："/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="记住Mac地址"
+        android:layout_below="@+id/edit_mac_2"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/edit_mac_0"
+        android:layout_below="@+id/tv_mac"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_0"
+        android:layout_toRightOf="@+id/edit_mac_0"
+        android:layout_below="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edit_mac_1"
+        android:layout_below="@+id/tv_mac"
+        android:layout_toRightOf="@+id/tv_0"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_toRightOf="@+id/edit_mac_1"
+        android:layout_below="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edit_mac_2"
+        android:layout_below="@+id/tv_mac"
+        android:layout_toRightOf="@+id/tv_1"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_toRightOf="@+id/edit_mac_2"
+        android:layout_below="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edit_mac_3"
+        android:layout_below="@+id/tv_mac"
+        android:layout_toRightOf="@+id/tv_2"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_toRightOf="@+id/edit_mac_3"
+        android:layout_below="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edit_mac_4"
+        android:layout_below="@+id/tv_mac"
+        android:layout_toRightOf="@+id/tv_4"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_toRightOf="@+id/edit_mac_4"
+        android:layout_below="@+id/tv_mac"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edit_mac_5"
+        android:layout_below="@+id/tv_mac"
+        android:layout_toRightOf="@+id/tv_5"
+        android:textSize="16sp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="连接"
+        android:onClick="collect"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

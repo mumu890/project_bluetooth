@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bleDemo/src/main/java/com/example/bledemo/BlueListActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bleDemo/src/main/java/com/example/bledemo/BluetoothCallBack.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bleDemo/src/main/java/com/example/bledemo/BluetoothUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bleDemo/src/main/java/com/example/bledemo/ProgressUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myBuleTooth/src/main/java/com/example/mybuletooth/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myBuleTooth/src/main/java/com/ywq/broadcast/BluetoothReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myBuleTooth/src/main/java/com/ywq/tools/ClsUtils.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

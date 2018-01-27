@@ -1,0 +1,3 @@
+include ':bluetoothTest', ':baseapp', ':FastBueltooth', ':FastBleLib', ':bofu'
+include ':myBuleTooth'
+include ':bleDemo'

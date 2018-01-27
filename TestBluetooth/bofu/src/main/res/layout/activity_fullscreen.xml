@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:onClick="but"
+            android:textColor="#ffffff"
+            android:text="横向,伸缩式"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="65dp"
+            android:background="@color/colorAccent"
+            android:onClick="but1"
+            android:textColor="#ffffff"
+            android:text="纵向,推拉式"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="65dp"
+            android:background="@color/colorAccent"
+            android:onClick="but2"
+            android:textColor="#ffffff"
+            android:text="横向,伸缩式"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

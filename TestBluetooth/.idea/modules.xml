@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FastBleLib/FastBleLib.iml" filepath="$PROJECT_DIR$/FastBleLib/FastBleLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FastBueltooth/FastBueltooth.iml" filepath="$PROJECT_DIR$/FastBueltooth/FastBueltooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestBluetooth.iml" filepath="$PROJECT_DIR$/TestBluetooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseapp/baseapp.iml" filepath="$PROJECT_DIR$/baseapp/baseapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bleDemo/bleDemo.iml" filepath="$PROJECT_DIR$/bleDemo/bleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetoothTest/bluetoothTest.iml" filepath="$PROJECT_DIR$/bluetoothTest/bluetoothTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bofu/bofu.iml" filepath="$PROJECT_DIR$/bofu/bofu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBuleTooth/myBuleTooth.iml" filepath="$PROJECT_DIR$/myBuleTooth/myBuleTooth.iml" />
+    </modules>
+  </component>
+</project>
