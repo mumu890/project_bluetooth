@@ -1,13 +1,22 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 26
     buildToolsVersion "27.0.1"
+=======
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+>>>>>>> origin/master
 
     defaultConfig {
         applicationId "com.clj.blesample"
         minSdkVersion 14
+<<<<<<< HEAD
         targetSdkVersion 26
+=======
+        targetSdkVersion 25
+>>>>>>> origin/master
         versionCode 221
         versionName "2.2.1"
     }
@@ -22,6 +31,10 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:26.+'
+=======
+    compile 'com.android.support:appcompat-v7:25.3.1'
+>>>>>>> origin/master
     compile project(':FastBleLib')
 }

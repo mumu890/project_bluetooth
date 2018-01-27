@@ -72,6 +72,10 @@ public abstract class BleScanPresenter implements BluetoothAdapter.LeScanCallbac
                     return;
                 }
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
             next(bleDevice);
         }
     }

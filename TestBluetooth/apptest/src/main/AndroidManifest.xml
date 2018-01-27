@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.clj.blesample">
+          package="test.com.jyl.bluetooth">
 
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-<<<<<<< HEAD
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
 
     <!--注意在6.0之后的设备，如果想监听扫描到蓝牙设备的广播，还必须添加权限-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-=======
-    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
->>>>>>> origin/master
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".RequestPermissionsActivity">
+        </activity>
 
-        <activity android:name=".operation.OperationActivity" />
-
-<<<<<<< HEAD
-        <!--<receiver android:name=".operation.BluetoothReceiver">
+        <receiver android:name=".BluetoothReceiver">
             <intent-filter>
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
                 <action android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED"/>
@@ -47,9 +41,6 @@
                 <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
             </intent-filter>
         </receiver>
--->
-=======
->>>>>>> origin/master
     </application>
 
 </manifest>

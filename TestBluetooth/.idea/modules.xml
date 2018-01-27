@@ -5,11 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/FastBleLib/FastBleLib.iml" filepath="$PROJECT_DIR$/FastBleLib/FastBleLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/FastBueltooth/FastBueltooth.iml" filepath="$PROJECT_DIR$/FastBueltooth/FastBueltooth.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestBluetooth.iml" filepath="$PROJECT_DIR$/TestBluetooth.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/baseapp/baseapp.iml" filepath="$PROJECT_DIR$/baseapp/baseapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/bleDemo/bleDemo.iml" filepath="$PROJECT_DIR$/bleDemo/bleDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/bluetoothTest/bluetoothTest.iml" filepath="$PROJECT_DIR$/bluetoothTest/bluetoothTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/bofu/bofu.iml" filepath="$PROJECT_DIR$/bofu/bofu.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBuleTooth/myBuleTooth.iml" filepath="$PROJECT_DIR$/myBuleTooth/myBuleTooth.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/apptest/apptest.iml" filepath="$PROJECT_DIR$/apptest/apptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseapp/baseapp.iml" filepath="$PROJECT_DIR$/baseapp/baseapp.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>

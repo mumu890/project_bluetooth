@@ -5,8 +5,11 @@ import android.bluetooth.BluetoothDevice;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+<<<<<<< HEAD
 import java.util.Arrays;
 
+=======
+>>>>>>> origin/master
 
 public class BleDevice implements Parcelable {
 
@@ -108,6 +111,7 @@ public class BleDevice implements Parcelable {
         this.mTimestampNanos = timestampNanos;
     }
 
+<<<<<<< HEAD
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("BleDevice{");
@@ -118,4 +122,6 @@ public class BleDevice implements Parcelable {
         sb.append('}');
         return sb.toString();
     }
+=======
+>>>>>>> origin/master
 }

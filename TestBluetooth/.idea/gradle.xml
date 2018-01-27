@@ -10,11 +10,16 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/FastBleLib" />
             <option value="$PROJECT_DIR$/FastBueltooth" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/baseapp" />
             <option value="$PROJECT_DIR$/bleDemo" />
             <option value="$PROJECT_DIR$/bluetoothTest" />
             <option value="$PROJECT_DIR$/bofu" />
             <option value="$PROJECT_DIR$/myBuleTooth" />
+=======
+            <option value="$PROJECT_DIR$/apptest" />
+            <option value="$PROJECT_DIR$/baseapp" />
+>>>>>>> origin/master
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

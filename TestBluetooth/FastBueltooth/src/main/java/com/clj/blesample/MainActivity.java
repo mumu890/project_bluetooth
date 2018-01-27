@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
+<<<<<<< HEAD
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 import android.content.BroadcastReceiver;
@@ -11,11 +12,20 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+=======
+import android.bluetooth.BluetoothGatt;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+>>>>>>> origin/master
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.os.Parcelable;
+=======
+>>>>>>> origin/master
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -48,7 +58,10 @@ import com.clj.fastble.callback.BleScanCallback;
 import com.clj.fastble.data.BleDevice;
 import com.clj.fastble.exception.BleException;
 import com.clj.fastble.scan.BleScanRuleConfig;
+<<<<<<< HEAD
 import com.clj.fastble.utils.BleLog;
+=======
+>>>>>>> origin/master
 
 import java.util.ArrayList;
 import java.util.List;
@@ -78,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         initView();
 
+<<<<<<< HEAD
         if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
             Toast.makeText(this, "该设备不支持蓝牙BLE", Toast.LENGTH_SHORT).show();
         } else {
@@ -91,6 +105,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setOperateTimeout(5000);
 
         registBroadcast();
+=======
+        BleManager.getInstance().init(getApplication());
+        BleManager.getInstance()
+                .enableLog(true)
+                .setMaxConnectCount(7)
+                .setOperateTimeout(5000);
+>>>>>>> origin/master
     }
 
     @Override
@@ -231,7 +252,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void startScan() {
+<<<<<<< HEAD
         BleLog.i("startScan");
+=======
+>>>>>>> origin/master
         BleManager.getInstance().scan(new BleScanCallback() {
             @Override
             public void onScanStarted(boolean success) {
@@ -258,8 +282,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 img_loading.clearAnimation();
                 img_loading.setVisibility(View.INVISIBLE);
                 btn_scan.setText(getString(R.string.start_scan));
+<<<<<<< HEAD
 
                 BluetoothAdapter.getDefaultAdapter().startDiscovery();
+=======
+>>>>>>> origin/master
             }
         });
     }
@@ -427,6 +454,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+<<<<<<< HEAD
     private void registBroadcast(){
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
@@ -532,4 +560,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
     };
+=======
+>>>>>>> origin/master
 }
